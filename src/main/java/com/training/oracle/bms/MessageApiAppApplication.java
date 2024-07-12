@@ -13,6 +13,7 @@ public static void greetings()
 	public static void main(String[] args)
 	{
 		SpringApplication.run(MessageApiAppApplication.class, args);
+		greetings();
 	}
 
 }
